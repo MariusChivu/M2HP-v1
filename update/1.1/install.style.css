@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	background: #e2e2e2;
+}
+
+.left-menu {
+	position: fixed;
+	left: 0;
+	width: 345px;
+	height: 100%;
+	background: #212121;
+	text-align: center;
+	color: #fff;
+}
+.left-menu img{
+	width: 320px;
+}
+
+.inside {
+	padding: 10px;
+}
+
+.body {
+	///margin-left: 345px;
+	text-align: center;
+	height: 100%;
+	background: #e2e2e2;
+	width: 710px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.body .inside {
+	padding: 20px;
+}
+
+.sel_lang {
+	text-align: center;
+	color: #fff;
+	background: #212121;
+	height: 100%;
+	padding: 20px;
+	font-weight: bold;	
+}
+.sel_lang .btn-info {
+	background: #212121;
+	border: solid 0px #212121;
+	font-weight: bold;	
+	font-size: 25px;
+}
+.sel_lang h1 {
+	font-size: 50px;
+}

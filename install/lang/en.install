@@ -1,0 +1,40 @@
+<?php
+
+$lang2 = array(
+	'123' => 'ă î ș ț â',
+	'next' => 'Next step',
+	'finish' => 'Finish',
+	
+	'step1' => '<b>Step 1:</b><br>Configure mysql connection',
+	'step2' => '<b>Step 2:</b><br>Check mysql connection',
+	'step3' => '<b>Step 3:</b><br>Install the database',
+	'step4' => '<b>Step 4:</b><br>Installing Homepage Files',
+	'step5' => '<b>Step 5:</b><br>E-mail configuration',
+	'step6' => '<b>Step 6:</b><br>Obtain a license code',
+	'step7' => '<b>Step 7:</b><br>Setting up your administrator account',
+	'step8' => '<b>Step 8:</b><br>Installation was successful.',
+	'step8text' => 'You will be redirected to Homepage',
+	
+	'host' => 'Enter the server ip',
+	'user' => 'Enter the mysql user (Navicat)',
+	'pass' => 'Enter the mysql user password (Navicat)',
+	'step2_succes' => 'The entered data are correct.<br>The connection was made.',
+	'step2_danger' => 'The connection was not performed.<br>Check the data.',
+	'step3_web' => 'The Home Page Database',
+	'step3_acc' => 'Account database',
+	'success_db' => 'Successfully installed',
+	'exist_db' => 'Already existent',
+	'update_success_verify' => 'Check the files.',
+	'update_success_download' => 'Download files.',
+	'update_success_install' => 'Installing files.',
+	'mail_host' => 'Email Input Server',
+	'mail_Username' => 'Email Address',
+	'mail_Password' => 'Password for your email address',
+	'mail_Port' => 'Email Server Port (typically 465)',
+	'licenta_txt' => 'Obtaining a license code is required to be able to receive the new updates.',
+	'admin_acc' => 'Enter your account name',
+	'adminpass' => 'Enter your account password',
+	'manual_download' => 'Manually download the files (put next to install.php and index.php) <br> Then refresh the page.',
+
+);
+?>

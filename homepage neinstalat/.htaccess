@@ -1,0 +1,70 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ErrorDocument 403 /403.shtml
+ErrorDocument 404 /404.shtml
+ErrorDocument 500 /500.shtml
+
+RewriteRule ^logout ./index.php?logout
+
+RewriteRule ^download ./index.php?page=download
+RewriteRule ^register&aff=(.*) ./index.php?page=register&aff=$1
+RewriteRule ^register ./index.php?page=register
+RewriteRule ^presentation ./index.php?page=presentation
+
+RewriteRule ^guild/(.*) ./index.php?page=guild&gld=$1
+RewriteRule ^player/(.*) ./index.php?page=player&char=$1
+RewriteRule ^guild ./index.php?page=guild&gld=
+RewriteRule ^player ./index.php?page=player&char=
+
+RewriteRule ^rank/player&p=(.*) ./index.php?page=rank-player&p=$1
+RewriteRule ^rank/player ./index.php?page=rank-player
+RewriteRule ^rank/guild&p=(.*) ./index.php?page=rank-guild&p=$1
+RewriteRule ^rank/guild ./index.php?page=rank-guild
+
+RewriteRule ^account/activate&(.*)&(.*) ./index.php?page=activate&mail=$1&key=$2
+RewriteRule ^account/activate ./index.php?page=activate
+
+RewriteRule ^account/info ./index.php?account=info_account
+RewriteRule ^account/reset/(.*) ./index.php?account=reset&char=$1
+RewriteRule ^account/password&(.*) ./index.php?account=password&key=$1
+RewriteRule ^account/password ./index.php?account=password
+RewriteRule ^account/mail&(.*) ./index.php?account=mail&key=$1
+RewriteRule ^account/mail ./index.php?account=mail
+RewriteRule ^account/safebox ./index.php?account=safebox
+RewriteRule ^account/affiliate ./index.php?account=affiliate
+
+RewriteRule ^admin/panel ./index.php?admin=panel
+RewriteRule ^admin/http ./index.php?admin=http
+RewriteRule ^admin/presentation ./index.php?admin=presentation
+RewriteRule ^admin/news/add ./index.php?admin=news_add
+RewriteRule ^admin/news/manage/(.*) ./index.php?admin=news_manage&edit=$1
+RewriteRule ^admin/news/manage ./index.php?admin=news_manage
+RewriteRule ^admin/admins/site/(.*) ./index.php?admin=admins_site_list&edit=$1
+RewriteRule ^admin/admins/site ./index.php?admin=admins_site_list
+RewriteRule ^admin/admins/gm/(.*) ./index.php?admin=admins_gm_list&edit=$1
+RewriteRule ^admin/admins/gm ./index.php?admin=admins_gm_list
+RewriteRule ^admin/admins/add ./index.php?admin=admins_add
+
+RewriteRule ^admin/download/delete/(.*) ./index.php?admin=download_delete&del=$1
+RewriteRule ^admin/download/delete ./index.php?admin=download_delete
+RewriteRule ^admin/download/add ./index.php?admin=download_add
+
+RewriteRule ^admin/account/list&p=(.*) ./index.php?admin=account_list&p=$1
+RewriteRule ^admin/account/list&a=(.*) ./index.php?admin=account_list&acc=$1
+RewriteRule ^admin/account/list ./index.php?admin=account_list
+RewriteRule ^admin/account/block&p=(.*) ./index.php?admin=acount_block&p=$1
+RewriteRule ^admin/account/block&a=(.*) ./index.php?admin=acount_block&acc=$1
+RewriteRule ^admin/account/block ./index.php?admin=account_block
+RewriteRule ^admin/widget ./index.php?admin=widget
+RewriteRule ^admin/log/general ./index.php?admin=log_general
+RewriteRule ^admin/log/ban ./index.php?admin=log_ban
+RewriteRule ^admin/log/unban ./index.php?admin=log_unban
+RewriteRule ^admin/log/gm/administration ./index.php?admin=log_gmadmin
+RewriteRule ^admin/log/gm/command ./index.php?admin=log_gmcommand
+RewriteRule ^admin/log/webadmin ./index.php?admin=log_webadmin
+RewriteRule ^admin/log/coins ./index.php?admin=log_coins
+RewriteRule ^admin/coins ./index.php?admin=coins
+

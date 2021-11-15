@@ -1,0 +1,40 @@
+<?php
+
+$lang2 = array(
+	'123' => 'ă î ș ț â',
+	'next' => 'Pasul următor',
+	'finish' => 'Finalizare',
+	
+	'step1' => '<b>Pasul 1:</b><br>Configurare conexiune mysql',
+	'step2' => '<b>Pasul 2:</b><br>Verificarea conexiunii mysql',
+	'step3' => '<b>Pasul 3:</b><br>Instalarea bazei de date',
+	'step4' => '<b>Pasul 4:</b><br>Instalarea fișierelor pentru Home Page',
+	'step5' => '<b>Pasul 5:</b><br>Configurarea Email-ului',
+	'step6' => '<b>Pasul 6:</b><br>Obținere cod licență',
+	'step7' => '<b>Pasul 7:</b><br>Setarea contului de administrator',
+	'step8' => '<b>Pasul 8:</b><br>Instalarea a fost efectuată cu succes.',
+	'step8text' => 'Vei fi redirectionat către Home Page',
+	
+	'host' => 'Introdu ip-ul serverului',
+	'user' => 'Introdu utilizatorul mysql (Navicat)',
+	'pass' => 'Introdu parola utilizatorului mysql (Navicat)',
+	'step2_succes' => 'Datele introduse sunt corecte.<br>Conexiunea a fost efectuată.',
+	'step2_danger' => 'Conexiunea nu a fost efectuată.<br>Verifică datele.',
+	'step3_web' => 'Baza de date pentru Home Page',
+	'step3_acc' => 'Baza de date pentru conturi',
+	'success_db' => 'Instalat cu succes',
+	'exist_db' => 'Deja existent',
+	'update_success_verify' => 'Se verifică fișierele.',
+	'update_success_download' => 'Se descarcă fișierele.',
+	'update_success_install' => 'Se instalează fișierele.',
+	'mail_host' => 'Server de intrare pentru email',
+	'mail_Username' => 'Adresa de email',
+	'mail_Password' => 'Parola pentru adresa de email',
+	'mail_Port' => 'Portul pentru serverul de email (de obicei 465)',
+	'licenta_txt' => 'Obținerea unui cod de licență este necesară pentru a putea primi noile actualizări.',
+	'admin_acc' => 'Introdu numele contului',
+	'adminpass' => 'Introdu parola contului',
+	'manual_download' => 'Descarcă manual fișierele(se pun lângă install.php si index.php)<br>Apoi dă refresh la pagină.',
+
+);
+?>
