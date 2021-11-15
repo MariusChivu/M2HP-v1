@@ -1,6 +1,6 @@
 <div class="alert alert-info">
 		<table class="table table-dark">
-			<tr><td><?php print $lang["license_key"]; ?></td><td>marius_akN_localhost_key</td></tr>
+			<tr><td><?php print $lang["license_key"]; ?></td><td>marius_localhost_key</td></tr>
 			<tr><td><?php print $lang["license_domain"]; ?></td><td>maryus.ddns.net</td></tr>
 			<tr><td><?php print $lang["license_ip"]; ?></td><td>86.121.211.22</td></tr>
 		</table>
